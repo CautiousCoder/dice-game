@@ -10,11 +10,13 @@
   width: 120px;
   height: 120px;
   border-radius: 8px;
+  margin: 0;
 }
 .Dice p {
   font-size: 16px;
   color: black;
   margin-top: 0;
+  line-height: 0;
 }
 .Dice button {
   width: 220px;
@@ -31,4 +33,15 @@
   background: white;
   color: #000;
   outline: 1px solid black;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+  padding: 20px;
+  background: wheat;
+  border-radius: 12px;
+  outline: 1px solid #4545;
+  margin-top: 10px;
 }

@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import styles from './GamePlay.module.css';
 const GamePlay = ({ playGame }) => {
   return (
@@ -7,9 +8,7 @@ const GamePlay = ({ playGame }) => {
       </div>
       <div className={styles.text}>
         <h1>dice game</h1>
-        <button type='button' onClick={playGame}>
-          play game
-        </button>
+        <Button text='play game' handleClick={playGame} />
       </div>
     </div>
   );

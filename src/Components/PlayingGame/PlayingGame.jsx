@@ -23,6 +23,13 @@ const PlayingGame = () => {
       : setTotalScore((prev) => prev - 1);
     setSelectedValue(undefined);
   };
+
+  const resetScore = () => {
+    setTotalScore(0);
+    setCurrentDice(1);
+    setSelectedValue(1);
+    setError('');
+  };
   return (
     <div className={styles.Playing}>
       <TotalScore
@@ -32,7 +39,7 @@ const PlayingGame = () => {
         selectedValue={selectedValue}
         setSelectedValue={setSelectedValue}
       />
-      <DiceRoll handleClick={handleClick} currentDice={currentDice} />
+      <DiceRoll handleClick={handleClick} currentDice={currentDice} resetScore={resetScore} />
     </div>
   );
 };
