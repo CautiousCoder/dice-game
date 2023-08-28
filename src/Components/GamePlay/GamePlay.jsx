@@ -3,7 +3,7 @@ const GamePlay = ({ playGame }) => {
   return (
     <div className={styles.gamePlay}>
       <div className={styles.images}>
-        <img src='/images/6.png' alt='front image' />
+        <img src='./images/6.png' alt='front image' />
       </div>
       <div className={styles.text}>
         <h1>dice game</h1>
