@@ -1,0 +1,34 @@
+.Dice {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Dice img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+.Dice p {
+  font-size: 16px;
+  color: black;
+  margin-top: 0;
+}
+.Dice button {
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+  background: #000;
+  color: white;
+  border-radius: 8px;
+  text-transform: capitalize;
+  outline: 1px solid transparent;
+  transition-duration: 600ms;
+}
+.Dice button:hover {
+  background: white;
+  color: #000;
+  outline: 1px solid black;
+}

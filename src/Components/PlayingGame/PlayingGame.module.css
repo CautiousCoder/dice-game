@@ -1,0 +1,8 @@
+.Playing {
+  padding-top: 40px;
+  display: flex;
+  width: 93.33%;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 40px;
+}
