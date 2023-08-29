@@ -18,7 +18,6 @@ const DiceRoll = ({ currentDice, handleClick, resetScore }) => {
         <h2>How to play dice game</h2>
         <p>Select any number.</p>
         <p>Click on dice image.</p>
-        {resetScore}
         <p>
           After click on dice if selected number is equal to dice number you will get same point as
           dice.
